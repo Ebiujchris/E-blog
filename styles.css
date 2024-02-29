@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color:none;
+  color: red;
+}
+
+ .infinity {
+  font-style: italic;
+  background-color: none;
+  color: red;
+ }
+
+ .main {
+  background-color: black;
+  min-height: 500px;
+ }
+
+.footer {
+  position:absolute ;
+  margin-top: auto;
+  padding: 75px;
+  background-color: ;
+  bottom: 0px;
+  width: 1530px;
+  overflow: hidden;
+  border: 1px;
+}
+
+
