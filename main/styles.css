@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+#home {
+  color: aqua;
+}
+#about {
+  color: aqua;
+}
+#blog {
+  color: aqua;
+}
+#name {
+  color: aqua;
+  font-style: italic;
+}
+#search {
+  color: aqua;
+}
+#hey {
+  font-size:  60px;
+  position: relative;
+  bottom: 550px;
+  margin-left: 40px;
+}
+#ask {
+  bottom: 450px;
+  margin-left: 30px;
+  font-size: 25px;
+  position: relative;
+}
+.I {
+  margin-left: 100px;
+  padding-top: 70px;
+  font-size: 30px;
+}
+#contact {
+  color: aqua;
+}
+
+.myButton {
+  display: inline-block;
+  padding: 20px 35px;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: aqua;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: black;
+  margin-left: 80px;
+  margin-top: 30px;
+  position: relative;
+  bottom: 400px;
+}
+
+.myButton:hover {
+  background-color: gray;
+}
+
+.image {
+  margin-top: 100px;
+  margin-left:700px  
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+}
+#copyright {
+  color: white;
+}
+#g {
+  padding-top: 15px;
+}
+#recentblog {
+  padding-left: 80px;
+  position: relative;
+  bottom: 240px;
+}
+#go {
+  padding-left: 30px;
+  position: relative;
+  bottom: 200px;
+}
+#d{
+   position: relative;
+   bottom: 160px;
+   margin-left: 30px;
+}
+#self {
+  position: relative;
+  top: 50px;
+  right: 480px;
+}
+#next {
+  position: relative;
+  top:220px;
+  right: 980px;
+  
+}
+
+ .main {
+  background-color: white;
+  min-height: 2000px;
+ }
+
+ 
+
+
+  
+
+ .footer {
+  background-color: black; 
+  text-align: center;
+  padding: 150px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+ }
+
