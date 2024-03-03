@@ -10,7 +10,98 @@
 </head>
 <body>
   <div w3-include-html="/includes/navbar.html"></div>
-
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+  
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+  
+    article {
+      flex: 2;
+      background-color: #fff;
+      padding: 20px;
+      margin-right: 20px;
+    }
+  
+    sidebar {
+      flex: 1;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+  
+    /* Styles for news items */
+    .news-item {
+      margin-bottom: 15px;
+    }
+  
+    /* Additional styling for responsiveness */
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+  
+      article,
+      sidebar {
+        flex: 1;
+        margin-right: 0;
+      }
+    }
+  </style>
+  </head>
+  <body>
+  
+  <header>
+    <h1>Latest News</h1>
+  </header>
+  
+  <main>
+    <article>
+      <img src="/images/com.webp" alt="">
+     <div>
+      <p>The trial of Kwoyelo: Fate of LRA rebel commander divides northern Uganda
+        Kwoyelo,<br> the only LRA commander to be tried for his crimes in Uganda, has been in detention since 2009.</p>
+    </div>
+      
+      
+    </article>
+  
+    <sidebar>
+      <h3 id=>Latest News</h3>
+      <div class="news-item">
+        <h4 id="h">From:The stream</h4>
+        <p>Is the Kenyan government soing enough to act againts femicides...</p>
+        
+      </div>
+  
+      <div class="news-item">
+        <h4 id="h">Uganda's first Oscar nominated film tells the story fo Bobi Wine persecution</h4>
+        <p>Film retells political persecution of pop star turned politician Bobi Wine as he takes on the longterm Ugandan leader..</p>
+      </div>
+  
+      <div class="news-item">
+        <h4 id="h">How relevant is the Non-Aligne Movement?</h4>
+        <p>As the organisation meets in Uganda,how big a role can its 120 member countries play on the world global stage?</p>
+      </div>
+  
+      <div class="news-item">
+        <h4 id="h">The new politics of urbanising Uganda</h4>
+        <p>The battle for urban space in Kampala shows how Africa’s informal workers are rattling ruling regimes.</p>
+      </div>
 
   
   <script src="/css/bootstrap/js/bootstrap.bundle.js"></script>
